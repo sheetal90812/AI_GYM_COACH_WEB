@@ -6,6 +6,7 @@ The application combines **MediaPipe Pose Landmarker, WebRTC, Streamlit, Groq AI
 ## 🌐 Live Demo
 🚀 **Live Application:**
 https://ai-real-time-gym-coach-production.up.railway.app/
+
 📦 **GitHub Repository:**
 https://github.com/sheetal90812/AI-Real-Time-GYM-Coach
 

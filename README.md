@@ -102,35 +102,6 @@ This allows workout history to be displayed for individual users.
 # 💾 Workout History
 Workout information is stored using **SQLite**, allowing the application to maintain workout-related data and display previous workout activity.
 
-# 🧠 How It Works
-The core computer vision pipeline follows this process:
-Camera
-   ↓
-WebRTC Video Stream
-   ↓
-MediaPipe Pose Landmarker
-   ↓
-Body Landmarks
-   ↓
-Joint / Movement Analysis
-   ↓
-Exercise-Specific Logic
-   ↓
-┌───────────────────────┐
-│ Rep & Set Tracking    │
-│ Exercise Metrics      │
-│ Form / Movement Check │
-└───────────┬───────────┘
-            ↓
-      Workout Events
-            ↓
-       AI Coaching
-        (Groq LLM)
-            ↓
-     Text-to-Speech
-            ↓
-      Voice Feedback
-
 # 🏗️ System Architecture
 
                          USER
